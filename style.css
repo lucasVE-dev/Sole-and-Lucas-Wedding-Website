@@ -1,35 +1,9 @@
-
 body {
-   font-family: "Roboto", sans-serif; 
-   min-height: 100vh;
-}
-
-body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
-}
-
-.header {
-    background-color: #1F2937;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 14px ;
-    margin: 0;
-}
-
-Header {
-    font-size: 24px;
-    font-weight: 700;
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 12px;
-    padding: 0px;
 }
 
 a {
@@ -37,7 +11,37 @@ a {
     color: whitesmoke;
 }
 
-.body-part-one {
+button {
+    padding: 7px 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.site-header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 14px;
+    margin: 0;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    padding: 0px;
+}
+
+.hero {
     display: flex;
     background-color: #1F2937;
     color: white;
@@ -45,18 +49,7 @@ a {
     justify-content: center;
 }
 
-.Invitation {
-    font-size: 24px;
-    font-weight: 800;
-}
-
-.foto-principal {
-    width: 300px;
-    height: 200px;
-}
-
-.container-part-one-one {
-    
+.hero-content {
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -64,16 +57,51 @@ a {
     gap: 10px;
 }
 
-.body-part-two {
+.hero-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.hero-text {
+    margin: 0;
+}
+
+.hero-image {
+    width: 300px;
+    height: 200px;
+}
+
+.rsvp-button {
+    background-color: rgb(56, 142, 233);
+    color: white;
+    width: 100px;
+}
+
+.details-section {
     display: flex;
     flex-direction: column;
     padding: 10px;
     margin-bottom: 15px;
 }
 
-.container-part-two-two {
+.details-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.details-grid {
     display: flex;
     justify-content: space-around;
+}
+
+.detail-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .detail-image {
@@ -81,17 +109,65 @@ a {
     height: 100px;
 }
 
-.Detail {
+.detail-title {
+    margin: 0;
+}
+
+.quote-section {
+    background-color: gainsboro;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px 50px;
 }
 
-.Details-logo {
+.quote-content {
+    margin: 0 30px;
     display: flex;
-    justify-content: center;
-    font-size: 20px;
-    padding: 10px 0;
+    flex-direction: column;
+    align-items: end;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+    margin: 0;
+}
+
+.quote-author {
+    font-style: normal;
+    margin: 0;
+}
+
+.gift-section {
+    margin: 30px 80px;
+    border-radius: 10px;
+    background-color: rgb(56, 142, 233);
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gift-content {
+    color: white;
+}
+
+.gift-heading {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.gift-text {
+    margin: 0;
+}
+
+.gift-button {
+    background-color: rgb(56, 142, 233);
+    color: white;
+    border: 2px solid white;
 }
 
 .footer {
@@ -103,66 +179,7 @@ a {
     margin-top: auto;
 }
 
-.body-part-three{
-    background-color: gainsboro;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 50px;
-}
-
-.Quote {
-    font-style: italic;
-    font-size: 18px;
-    color: black;
-    font-weight: 300;
-}
-
-.container-quote {
-    margin: 0 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-}
-
-.body-part-four {
-    margin: 30px 80px;
-    border-radius: 10px;
-    background-color: rgb(56, 142, 233);
-    padding: 20px 30px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.Container-part-four{ 
-   color: white; 
-}
-
-.textone {
-    font-size: 18px;
-    font-weight: 700;
-}
-
-button {
-    padding: 7px 15px;
-    font-size: 14px;
-    border-radius: 10px;
-    border: 0px;
-}
-
-.rspv {
-    background-color: rgb(56, 142, 233);
+.copyright {
     color: white;
-    width: 100px;
-}
-
-.tarjetazo {
-    background-color: rgb(56, 142, 233);
-    color: white;
-    border: 2px solid white;
-}
-
-.Copyrighted {
-    color: white;
-    
+    margin: 0;
 }
